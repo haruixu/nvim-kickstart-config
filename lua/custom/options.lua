@@ -1,0 +1,2 @@
+-- vim.keymap.set('n', '<leader>sv', ':vsplit<CR>', { desc = '[S]plit [V]ertically' })
+-- vim.keymap.set('n', '<leader>sh', ':hsplit<CR>', { desc = '[S]plit [H]orizontally' })
