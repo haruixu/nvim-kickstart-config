@@ -12,16 +12,16 @@ return {
       vim.keymap.set('n', '<leader>e', ui.toggle_quick_menu, { desc = 'Toggle Harpoon menu' })
 
       -- Navigation key mappings
-      vim.keymap.set('n', '<C-h>', function()
+      vim.keymap.set('n', '<leader>h', function()
         ui.nav_file(1)
       end, { desc = 'Navigate to Harpoon file 1' })
-      vim.keymap.set('n', '<C-j>', function()
+      vim.keymap.set('n', '<leader>j', function()
         ui.nav_file(2)
       end, { desc = 'Navigate to Harpoon file 2' })
-      vim.keymap.set('n', '<C-k>', function()
+      vim.keymap.set('n', '<leader>k', function()
         ui.nav_file(3)
       end, { desc = 'Navigate to Harpoon file 3' })
-      vim.keymap.set('n', '<C-l>', function()
+      vim.keymap.set('n', '<leader>k', function()
         ui.nav_file(4)
       end, { desc = 'Navigate to Harpoon file 4' })
 
