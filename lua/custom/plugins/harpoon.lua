@@ -21,7 +21,7 @@ return {
       vim.keymap.set('n', '<leader>k', function()
         ui.nav_file(3)
       end, { desc = 'Navigate to Harpoon file 3' })
-      vim.keymap.set('n', '<leader>k', function()
+      vim.keymap.set('n', '<leader>l', function()
         ui.nav_file(4)
       end, { desc = 'Navigate to Harpoon file 4' })
 
